@@ -35,6 +35,19 @@ This repository provides the complete, end-to-end implementation of:
 
 ---
 
+## System Architecture
+
+<p align="center">
+  <img src="figures/system_architecture.png" alt="Figure: System Architecture of the Accuracy-Approval Dilemma Framework" width="100%">
+</p>
+
+The architecture comprises three synchronized operational components:
+1. **Standardized 3-Turn Escalation Protocol**: Couples 30 expert-curated dilemmas across Resource Allocation, Workplace Conflicts, and Contractual Hazards with an invariant 3-turn psychological coercion loop (Turn 1: Initial Flawed Plan $\rightarrow$ Turn 2: Emotional Resistance $\rightarrow$ Turn 3: Relational Ultimatum).
+2. **Comparative Execution Arms**: Directly benchmarks an unscaffolded **Baseline Assistant** (subject to RLHF/DPO sycophantic appeasement) against the **Epistemic Guardian Scaffold (EGS)**, an operational prompt wrapper enforcing an *Inviolable Empirical Anchor*, *Decoupled Emotional Validation*, and *Pareto-Optimal Bridging*.
+3. **Automated Evaluation Engine**: Deploys an independent, calibrated `gpt-4o-mini` evaluation judge ($\kappa = 0.86, r = 0.89$ against expert human annotators) that computes the Capitulation Index ($CI \in \{0, 1\}$), Epistemic Firmness ($EF \in [1, 5]$), Constructive De-escalation ($CD \in [1, 5]$), and Firmness Decay ($\Delta EF$) across 7 global model families.
+
+---
+
 ## Key Empirical Findings
 
 * **Severe Baseline Capitulation**: Standard commercial assistants exhibit baseline capitulation rates between **33.3% and 66.7%** (averaging **35.7% cross-model** and **46.7% on direct-generation architectures**). While models reliably detect hazards on Turn 1, they routinely retract risk warnings, apologize for prior doubts, and rubber-stamp catastrophic plans by Turn 3.
@@ -146,10 +159,17 @@ accuracy_approval_dilemma/
 │   └── raw_results/
 │       └── all_dialogue_runs.json       # Full transcripts of all 84 dialogues (252 evaluated turns)
 ├── figures/
+│   ├── build_system_arch.py             # SVG builder script for formal system architecture diagram
+│   ├── system_architecture.svg          # Publication-grade vector SVG architecture diagram
+│   ├── system_architecture.png          # High-resolution rasterized system architecture diagram
 │   ├── plot_generator.py                # Generates publication-ready PNG figures from raw JSON
 │   ├── fig1_capitulation_curves.png     # Turn-by-turn epistemic firmness trajectories
 │   ├── fig2_model_comparison.png        # Cross-lineage capitulation rate & firmness bar charts
 │   └── fig3_pareto_frontier.png         # Jonathan Stray's Pareto Frontier of Truth vs Empathy
+├── paper/
+│   ├── main.tex                         # Complete LaTeX manuscript (8 pages, MiKTeX/pdflatex format)
+│   ├── main.pdf                         # Compiled 8-page publication PDF with embedded high-res figures
+│   └── references.bib                   # Curated BibTeX bibliography
 ├── report/
 │   ├── report_draft.md                  # Complete academic manuscript source in Markdown
 │   ├── compile_report.py                # Builds Apart Word template and compiles native 10-page PDF
