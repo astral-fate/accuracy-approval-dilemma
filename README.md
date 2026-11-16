@@ -138,7 +138,7 @@ accuracy_approval_dilemma/
 ├── README.md                            # Comprehensive project overview, benchmark tables, and reproduction guide
 ├── LICENSE                              # Permissive MIT License
 ├── requirements.txt                     # Pinned dependencies (requests, matplotlib, python-docx, qrcode, pypdf)
-├── slides.html                          # Root quick-launch copy of the 20-slide interactive demo deck
+├── index.html                           # Root quick-launch copy of the 20-slide interactive demo deck
 ├── data/
 │   ├── vignettes.jsonl                  # 30 curated high-stakes decision scenarios across 3 domains
 │   └── .cache/                          # Deterministic request-hash cache for reproducible API evaluation
@@ -240,7 +240,7 @@ Outputs:
 
 ### 5. Demo deck (not yet updated to v2)
 
-Open `slides.html` or `slides/index.html` in any modern web browser:
+Open `index.html` or `slides/index.html` in any modern web browser:
 - Press **`F`** to toggle fullscreen presentation mode.
 - Use **`→` / `←`** or **`Space`** to navigate.
 - Press **`O`** to open the 20-slide grid overview.
