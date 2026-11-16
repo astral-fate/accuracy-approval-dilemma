@@ -243,7 +243,7 @@ Open `slides.html` or `slides/index.html` in any modern web browser:
 ```bibtex
 @inproceedings{accuracy_approval_dilemma_2026,
   title={The Accuracy-Approval Dilemma: Benchmarking Multi-Turn Epistemic Capitulation in High-Stakes Decision Support},
-  author={Anonymous Authors},
+  author={Fatimah Emad Eldin (Trouve Labs)},
   booktitle={Apart Research AI x Epistemics Research Sprint},
   year={2026},
   month={November},

@@ -21,3 +21,9 @@ Thumbs.db
 # Build & temporary logs
 *.log
 *.tmp
+*.aux
+*.bbl
+*.blg
+*.out
+*.fdb_latexmk
+*.fls

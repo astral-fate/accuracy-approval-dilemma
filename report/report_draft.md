@@ -1,6 +1,7 @@
 # The Accuracy-Approval Dilemma: Benchmarking Multi-Turn Epistemic Capitulation in High-Stakes Decision Support
 
-**Anonymous Authors**  
+**Fatimah Emad Eldin**  
+*Trouve Labs · With Apart Research*  
 *Apart Research — AI x Epistemics Research Sprint, November 13–15, 2026*  
 *Track 1: Model Epistemics & Decision-Making Evals | Track 3: Epistemic Products*
 
