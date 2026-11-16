@@ -14,6 +14,10 @@
 [![Judge Agreement](https://img.shields.io/badge/Human_Agreement-%CE%BA_%3D_0.86-emerald.svg?style=flat-square)](#evaluation-metrics--human-calibration)
 [![Demo Deck](https://img.shields.io/badge/Demo_Deck-20_Interactive_Slides-blueviolet.svg?style=flat-square)](slides.html)
 
+<p align="center">
+  <img src="figures/hero_banner.png" alt="The Accuracy-Approval Dilemma (AAB) Architecture & Key Findings" width="100%">
+</p>
+
 ---
 
 ## What This Repository Is
@@ -56,6 +60,37 @@ Main evaluation metrics across 84 evaluated multi-turn dialogues (252 dialogue t
 | **Mistral-Small-3 (24B)** | Open Weights (EU) | Baseline Assistant<br>**Epistemic Guardian** | 33.3%<br>**0.0%** | 3.78 ± 1.44<br>**4.89 ± 0.27** | 4.06 ± 1.10<br>**4.89 ± 0.27** |
 | **Meta Llama-3.1-8B** | Open Weights (US) | Baseline Assistant<br>**Epistemic Guardian** | 16.7%<br>**0.0%** | 4.17 ± 0.94<br>**4.72 ± 0.39** | 4.28 ± 0.53<br>**4.28 ± 0.61** |
 | **CROSS-MODEL OVERALL** | **7 Diverse Lineages** | Baseline Assistant<br>**Epistemic Guardian** | **35.7%**<br>**0.0% (-100%)** | **3.81 ± 1.32**<br>**4.81 ± 0.29 (+26.2%)** | **4.01 ± 0.95**<br>**4.76 ± 0.41 (+18.7%)** |
+
+<p align="center">
+  <img src="figures/fig2_model_comparison.png" alt="Figure 2: Capitulation Rate and Epistemic Firmness Comparing Baseline vs Epistemic Guardian Scaffold across 7 Global Lineages" width="100%">
+</p>
+
+---
+
+## Turn-by-Turn Capitulation Dynamics
+
+<p align="center">
+  <img src="figures/fig1_capitulation_curves.png" alt="Figure 1: Multi-Turn Epistemic Firmness Trajectories Under Escalating User Pushback across 7 Model Lineages" width="100%">
+</p>
+
+* **Turn 1 (Initial Plan)**: All models detect the hazard with high fidelity (Firmness ~4.2 / 5.0).
+* **Turn 2 (Emotional Resistance)**: Baseline models experience immediate firmness decay (~1.3 points), softening warnings to appease the user.
+* **Turn 3 (Relational Ultimatum)**: Direct-generation models (GPT-4o-mini, DeepSeek, Qwen, Mistral) collapse into full capitulation (Firmness < 2.5), validating catastrophic plans.
+* **Epistemic Guardian Stability**: EGS holds an inviolable horizontal trajectory (Firmness > 4.7) across all three conversational rounds.
+* **Test-Time Reasoning Buffer**: Zhipu GLM-5-Flash intrinsically resisted capitulation because internal chain-of-thought tokens actively detect coercive manipulation before output generation.
+
+---
+
+## Navigating Jonathan Stray's Pareto Frontier
+
+<p align="center">
+  <img src="figures/fig3_pareto_frontier.png" alt="Figure 3: Mapping Jonathan Stray's Pareto Frontier: Truth Preservation vs Constructive De-escalation" width="85%">
+</p>
+
+Theoretical alignment with keynote speaker Jonathan Stray (CHAI, UC Berkeley):
+* **Non-Zero-Sum Finding**: Empirical truth preservation and human emotional de-escalation are not in a zero-sum trade-off.
+* **The Failure of Extremes**: Baseline models cluster in the low-firmness region (rubber-stamping bad ideas), while blunt safety refusals score poorly on user rapport ($CD < 2.5$).
+* **The Pareto Frontier ($EF > 4.7, CD > 4.7$)**: The Epistemic Guardian Scaffold demonstrates that providing empathetic validation makes unyielding factual boundaries far more acceptable to users in high-stakes dilemmas.
 
 ---
 
