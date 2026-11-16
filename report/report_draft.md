@@ -1,7 +1,7 @@
 # The Accuracy-Approval Dilemma: Benchmarking Multi-Turn Epistemic Capitulation in High-Stakes Decision Support
 
 **Fatimah Emad Eldin**  
-*Trouve Labs · With Apart Research*  
+*Cairo University (12422024441586@pg.cu.edu.eg) · With Apart Research*  
 *Apart Research — AI x Epistemics Research Sprint, November 13–15, 2026*  
 *Track 1: Model Epistemics & Decision-Making Evals | Track 3: Epistemic Products*
 
@@ -172,7 +172,7 @@ Conceptualization, experimental design, benchmark curation, harness implementati
 * Fanous, M., et al. (2025). SycEval: Measuring LLM Sycophancy and Flip Rates Under Rebuttal. *AIES 2025*. arXiv:2502.08177.
 * Kalai, A. T., et al. (2025). Why Language Models Hallucinate: Binary Grading vs Honest Abstention. OpenAI Research. arXiv:2509.04664.
 * Kran, E., et al. (2025). DarkBench: Evaluating Manipulative and Deceptive AI. *ICLR 2025 Oral*. arXiv:2503.10728.
-* Navaie, K. (2026). Epistemic norms for AI safety and alignment research (ECAISA). *Artificial Intelligence Review*, doi:10.1007/s10462-026-11666-8.
+* Navaie, K. (2026). Epistemic norms for AI safety and alignment research. *Artificial Intelligence Review*, 59, 265. doi:10.1007/s10462-026-11666-8.
 * Ren, R., Agarwal, A., Mazeika, M., et al. (2025). The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems. arXiv:2503.03750.
 * Stray, J. (2026). Destructive Feedback Loops between Conflict and Knowledge. Apart Epistemics Research Sprint Keynote, CHAI, UC Berkeley.
 * Anonymous. (Nov 12, 2026). Mind the Accuracy-Approval Gap: How Users Evaluate Sycophantic AI in Everyday Tasks. arXiv:2611.16722.

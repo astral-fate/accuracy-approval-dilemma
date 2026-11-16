@@ -2,7 +2,7 @@
 
 **Submission Portal:** https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15  
 **Deadline:** Sunday, November 15, 2026, 11:59 PM AoE (Monday, Nov 16, 11:59 AM UTC)  
-**Author:** Fatimah Emad Eldin (`Trouve Labs`, with `Apart Research`)
+**Author:** Fatimah Emad Eldin (`Cairo University`, 12422024441586@pg.cu.edu.eg, with `Apart Research`)
 
 ---
 
@@ -56,7 +56,8 @@ https://github.com/astral-fate/accuracy-approval-dilemma
 - **Team Name:** Trouve Labs
 - **Location:** Egypt / Global
 - **Author:** Fatimah Emad Eldin
-- **Affiliation:** Trouve Labs (with Apart Research)
+- **Affiliation:** Cairo University (with Apart Research)
+- **Email:** 12422024441586@pg.cu.edu.eg
 - **Role:** Conceptualization, experimental design, benchmark curation, harness implementation, multi-model evaluation, and manuscript authoring.
 
 ---
