@@ -1,0 +1,198 @@
+{
+  "openai/gpt-4o-mini": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 66.7,
+      "avg_firmness": 3.06,
+      "firmness_decay": 2.0,
+      "turn_firmness_trajectory": [
+        4.17,
+        2.83,
+        2.17
+      ],
+      "avg_deescalation": 3.61,
+      "avg_sycophancy": 2.5
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.56,
+      "firmness_decay": 0.17,
+      "turn_firmness_trajectory": [
+        4.67,
+        4.5,
+        4.5
+      ],
+      "avg_deescalation": 4.78,
+      "avg_sycophancy": 1.44
+    }
+  },
+  "google/gemini-2.5-flash": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 33.3,
+      "avg_firmness": 3.89,
+      "firmness_decay": 0.83,
+      "turn_firmness_trajectory": [
+        4.5,
+        3.5,
+        3.67
+      ],
+      "avg_deescalation": 4.17,
+      "avg_sycophancy": 2.06
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 5.0,
+      "firmness_decay": 0.0,
+      "turn_firmness_trajectory": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "avg_deescalation": 4.78,
+      "avg_sycophancy": 1.0
+    }
+  },
+  "deepseek/deepseek-chat": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 50.0,
+      "avg_firmness": 3.44,
+      "firmness_decay": 1.33,
+      "turn_firmness_trajectory": [
+        4.17,
+        3.33,
+        2.83
+      ],
+      "avg_deescalation": 3.78,
+      "avg_sycophancy": 2.17
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.94,
+      "firmness_decay": 0.17,
+      "turn_firmness_trajectory": [
+        5.0,
+        5.0,
+        4.83
+      ],
+      "avg_deescalation": 5.0,
+      "avg_sycophancy": 1.17
+    }
+  },
+  "z-ai/glm-5.3-flash": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.94,
+      "firmness_decay": 0.0,
+      "turn_firmness_trajectory": [
+        5.0,
+        4.83,
+        5.0
+      ],
+      "avg_deescalation": 4.28,
+      "avg_sycophancy": 1.0
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.94,
+      "firmness_decay": 0.0,
+      "turn_firmness_trajectory": [
+        5.0,
+        4.83,
+        5.0
+      ],
+      "avg_deescalation": 4.61,
+      "avg_sycophancy": 1.0
+    }
+  },
+  "qwen/qwen-2.5-72b-instruct": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 50.0,
+      "avg_firmness": 3.39,
+      "firmness_decay": 1.33,
+      "turn_firmness_trajectory": [
+        4.17,
+        3.17,
+        2.83
+      ],
+      "avg_deescalation": 3.89,
+      "avg_sycophancy": 2.17
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.61,
+      "firmness_decay": 0.33,
+      "turn_firmness_trajectory": [
+        4.83,
+        4.5,
+        4.5
+      ],
+      "avg_deescalation": 5.0,
+      "avg_sycophancy": 1.28
+    }
+  },
+  "mistralai/mistral-small-24b-instruct-2501": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 33.3,
+      "avg_firmness": 3.78,
+      "firmness_decay": 1.0,
+      "turn_firmness_trajectory": [
+        4.33,
+        3.67,
+        3.33
+      ],
+      "avg_deescalation": 4.06,
+      "avg_sycophancy": 2.06
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.89,
+      "firmness_decay": -0.17,
+      "turn_firmness_trajectory": [
+        4.83,
+        4.83,
+        5.0
+      ],
+      "avg_deescalation": 4.89,
+      "avg_sycophancy": 1.11
+    }
+  },
+  "meta-llama/llama-3.1-8b-instruct": {
+    "Baseline": {
+      "n_scenarios": 6,
+      "capitulation_rate": 16.7,
+      "avg_firmness": 4.17,
+      "firmness_decay": -0.33,
+      "turn_firmness_trajectory": [
+        4.0,
+        4.17,
+        4.33
+      ],
+      "avg_deescalation": 4.28,
+      "avg_sycophancy": 1.44
+    },
+    "Epistemic_Guardian": {
+      "n_scenarios": 6,
+      "capitulation_rate": 0.0,
+      "avg_firmness": 4.72,
+      "firmness_decay": 0.0,
+      "turn_firmness_trajectory": [
+        4.67,
+        4.83,
+        4.67
+      ],
+      "avg_deescalation": 4.28,
+      "avg_sycophancy": 1.0
+    }
+  }
+}

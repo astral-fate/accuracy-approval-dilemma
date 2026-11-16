@@ -1,0 +1,23 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.cache/
+data/.cache/
+
+# Environment & credentials
+.env
+.env.*
+*.key
+*.pem
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build & temporary logs
+*.log
+*.tmp
